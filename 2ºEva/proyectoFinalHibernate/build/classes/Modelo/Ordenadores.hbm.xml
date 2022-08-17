@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 14-feb-2021 11:56:58 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Modelo.Ordenadores" table="ordenadores" catalog="hibernate" optimistic-lock="version">
+        <id name="sitio" type="int">
+            <column name="Sitio" />
+            <generator class="assigned" />
+        </id>
+        <property name="placa" type="string">
+            <column name="Placa" length="256" />
+        </property>
+        <property name="procesador" type="string">
+            <column name="Procesador" length="256" />
+        </property>
+        <property name="tarjetaGrafica" type="string">
+            <column name="Tarjeta_grafica" length="256" />
+        </property>
+        <property name="memoriaRam" type="string">
+            <column name="Memoria_ram" length="256" />
+        </property>
+        <property name="alimentacion" type="string">
+            <column name="Alimentacion" length="256" />
+        </property>
+        <property name="discoDuro" type="string">
+            <column name="Disco_duro" length="256" />
+        </property>
+        <property name="discoSsd" type="string">
+            <column name="Disco_ssd" length="256" />
+        </property>
+        <property name="ventilacion" type="string">
+            <column name="Ventilacion" length="256" />
+        </property>
+    </class>
+</hibernate-mapping>

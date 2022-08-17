@@ -1,0 +1,20 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2021-02-14 13:06:15 #1 store] 
+Database 'D:\Cosas de clase\Cosas de todo\NetBeansProjects\SEGUNDO\Datos\JoseRamon\2ºEva\Proyecto_Final2\empleados.odb' has been recovered (tr. 101-101)
+
+[2021-02-14 13:06:16 #2 store] 
+Database 'D:\Cosas de clase\Cosas de todo\NetBeansProjects\SEGUNDO\Datos\JoseRamon\2ºEva\Proyecto_Final2\empleados.odb' is opened by 10376@DESKTOP-59TAS1N
+
+[2021-02-14 13:06:16 #3 store] 
+Configuration path: ?
+
+[2021-02-14 13:06:16 #4 type] 
+Type modelo.Empleado is not enhanced.
+
+[2021-02-14 13:06:16 #5 type] 
+Type modelo.Ordenador is not enhanced.
+
+[2021-02-14 13:06:16 #6 type] 
+Type modelo.Perifericos is not enhanced.
+

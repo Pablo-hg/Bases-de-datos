@@ -1,0 +1,289 @@
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-12-18 12:04:22 #1 store.file] 
+readTextFile error.
+
+[2020-12-18 12:04:22 #2 store.file] 
+java.io.FileNotFoundException: C:\Users\polix\.objectdb\exolorer.xml (El sistema no puede encontrar el archivo especificado)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at com.objectdb.o.STH.A(STH.java:717)
+	at com.objectdb.o.CNF.<init>(CNF.java:106)
+	at com.objectdb.o.CNF.<clinit>(CNF.java:32)
+	at com.objectdb.o.MainFrame.init(MainFrame.java:132)
+	at com.objectdb.o.EXA.<init>(EXA.java:77)
+	at com.objectdb.Explorer$1.run(Explorer.java:57)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-12-18 13:24:26 #1 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' is opened by 19044@DESKTOP-C865LHP
+
+[2020-12-18 13:24:26 #2 store] 
+Configuration path: C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\objectdb-2.8.3\objectdb-2.8.3\objectdb.conf
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-12-18 13:26:11 #1 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' is opened by 5896@DESKTOP-C865LHP
+
+[2020-12-18 13:26:11 #2 store] 
+Configuration path: C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2�\Datos A acceso\JoseRamon\AAA_Contenido\Examen\objectdb-2.8.3\objectdb-2.8.3\objectdb.conf
+
+[2020-12-18 13:27:12 #3 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' is closed by 5896@DESKTOP-C865LHP
+
+[2020-12-18 13:27:26 #4 explorer] 
+[ObjectDB 2.8.3] javax.persistence.PersistenceException
+Failed to open file 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb' (error 115)
+	at javax.swing.Timer.fireActionPerformed(Unknown Source)
+	at javax.swing.Timer$DoPostEvent.run(Unknown Source)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: com.objectdb.o.UserException: Failed to open file 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb'
+	at com.objectdb.o.MSG.a(MSG.java:77)
+	at com.objectdb.o.LFL.t(LFL.java:1488)
+	at com.objectdb.o.LFL.x(LFL.java:901)
+	at com.objectdb.o.LFL.x(LFL.java:797)
+	at com.objectdb.o.DFL.<init>(DFL.java:241)
+	at com.objectdb.o.DMG.<init>(DMG.java:27)
+	at com.objectdb.o.MST.<init>(MST.java:127)
+	at com.objectdb.o.MST.ap(MST.java:109)
+	at com.objectdb.o.MSF.Zv(MSF.java:190)
+	at com.objectdb.o.OMF.s(OMF.java:804)
+	at com.objectdb.jpa.EMF.s(EMF.java:130)
+	at com.objectdb.o.OMF.x(OMF.java:715)
+	at com.objectdb.jpa.EMF.createEntityManager(EMF.java:149)
+	... 18 more
+Caused by: java.io.FileNotFoundException: C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb (Acceso denegado)
+	at java.io.RandomAccessFile.open0(Native Method)
+	at java.io.RandomAccessFile.open(Unknown Source)
+	at java.io.RandomAccessFile.<init>(Unknown Source)
+	at com.objectdb.o.LFL.x(LFL.java:884)
+	... 28 more
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-12-18 13:33:03 #1 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' has been recovered (tr. 1-2)
+
+[2020-12-18 13:33:03 #2 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' is opened by 16944@DESKTOP-C865LHP
+
+[2020-12-18 13:33:03 #3 store] 
+Configuration path: C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\objectdb-2.8.3\objectdb-2.8.3\objectdb.conf
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-12-18 13:43:05 #1 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' is opened by 18104@DESKTOP-C865LHP
+
+[2020-12-18 13:43:05 #2 store] 
+Configuration path: C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\objectdb-2.8.3\objectdb-2.8.3\objectdb.conf
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-12-18 13:43:23 #1 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' is opened by 18168@DESKTOP-C865LHP
+
+[2020-12-18 13:43:23 #2 store] 
+Configuration path: C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2�\Datos A acceso\JoseRamon\AAA_Contenido\Examen\objectdb-2.8.3\objectdb-2.8.3\objectdb.conf
+
+[2020-12-18 13:43:48 #3 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' is closed by 18168@DESKTOP-C865LHP
+
+[2020-12-18 13:43:48 #4 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' is opened by 18168@DESKTOP-C865LHP
+
+[2020-12-18 13:43:48 #5 store] 
+Configuration path: C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2�\Datos A acceso\JoseRamon\AAA_Contenido\Examen\objectdb-2.8.3\objectdb-2.8.3\objectdb.conf
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-12-18 13:54:12 #1 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' is opened by 22896@DESKTOP-C865LHP
+
+[2020-12-18 13:54:12 #2 store] 
+Configuration path: C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\objectdb-2.8.3\objectdb-2.8.3\objectdb.conf
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-12-18 14:01:09 #1 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' is opened by 22704@DESKTOP-C865LHP
+
+[2020-12-18 14:01:09 #2 store] 
+Configuration path: C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\objectdb-2.8.3\objectdb-2.8.3\objectdb.conf
+
+[2020-12-18 14:01:21 #6 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' is closed by 18168@DESKTOP-C865LHP
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-12-18 14:01:43 #1 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' is opened by 23844@DESKTOP-C865LHP
+
+[2020-12-18 14:01:43 #2 store] 
+Configuration path: C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\objectdb-2.8.3\objectdb-2.8.3\objectdb.conf
+
+[2020-12-18 14:02:08 #3 type] 
+Type Modelo.Empleado is not enhanced.
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-12-18 14:02:16 #1 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' is opened by 24116@DESKTOP-C865LHP
+
+[2020-12-18 14:02:16 #2 store] 
+Configuration path: C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2�\Datos A acceso\JoseRamon\AAA_Contenido\Examen\objectdb-2.8.3\objectdb-2.8.3\objectdb.conf
+
+[2020-12-18 14:02:23 #3 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' is closed by 24116@DESKTOP-C865LHP
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-12-18 14:02:35 #1 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' is opened by 19220@DESKTOP-C865LHP
+
+[2020-12-18 14:02:35 #2 store] 
+Configuration path: C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2�\Datos A acceso\JoseRamon\AAA_Contenido\Examen\objectdb-2.8.3\objectdb-2.8.3\objectdb.conf
+
+[2020-12-18 14:02:45 #3 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' is closed by 19220@DESKTOP-C865LHP
+
+[2020-12-18 14:02:45 #4 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' is opened by 19220@DESKTOP-C865LHP
+
+[2020-12-18 14:02:45 #5 store] 
+Configuration path: C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2�\Datos A acceso\JoseRamon\AAA_Contenido\Examen\objectdb-2.8.3\objectdb-2.8.3\objectdb.conf
+
+[2020-12-18 14:05:33 #6 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' is closed by 19220@DESKTOP-C865LHP
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-12-18 14:06:04 #1 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleadooficial.odb' is opened by 8272@DESKTOP-C865LHP
+
+[2020-12-18 14:06:04 #2 store] 
+Configuration path: C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2�\Datos A acceso\JoseRamon\AAA_Contenido\Examen\objectdb-2.8.3\objectdb-2.8.3\objectdb.conf
+
+[2020-12-18 14:06:14 #3 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleadooficial.odb' is closed by 8272@DESKTOP-C865LHP
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-12-18 14:07:19 #1 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' is opened by 24004@DESKTOP-C865LHP
+
+[2020-12-18 14:07:19 #2 store] 
+Configuration path: C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2�\Datos A acceso\JoseRamon\AAA_Contenido\Examen\objectdb-2.8.3\objectdb-2.8.3\objectdb.conf
+
+[2020-12-18 14:13:17 #3 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' is closed by 24004@DESKTOP-C865LHP
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-12-18 14:14:17 #1 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' is opened by 17156@DESKTOP-C865LHP
+
+[2020-12-18 14:14:17 #2 store] 
+Configuration path: C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2�\Datos A acceso\JoseRamon\AAA_Contenido\Examen\objectdb-2.8.3\objectdb-2.8.3\objectdb.conf
+
+[2020-12-18 14:14:46 #3 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' is closed by 17156@DESKTOP-C865LHP
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-12-18 14:19:35 #1 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' is opened by 11104@DESKTOP-C865LHP
+
+[2020-12-18 14:19:35 #2 store] 
+Configuration path: C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2�\Datos A acceso\JoseRamon\AAA_Contenido\Examen\objectdb-2.8.3\objectdb-2.8.3\objectdb.conf
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-12-18 14:19:46 #1 server] 
+Server on port 6136 has started by 23192@DESKTOP-C865LHP
+
+[2020-12-18 14:20:12 #2 server] 
+Server on port 6136 has stopped by 23192@DESKTOP-C865LHP
+
+------------------------------------------------------------------------------------------------------------------------
+
+[2020-12-18 14:24:36 #1 explorer] 
+[ObjectDB 2.8.3] javax.persistence.PersistenceException
+Attempt to open a database file 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' that is currently in use by another process (error 141)
+	at com.objectdb.Explorer$1.run(Explorer.java:57)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: com.objectdb.o.UserException: Attempt to open a database file 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' that is currently in use by another process
+	at com.objectdb.o.MSG.a(MSG.java:64)
+	at com.objectdb.o.LFL.J(LFL.java:930)
+	at com.objectdb.o.LFL.x(LFL.java:887)
+	at com.objectdb.o.LFL.x(LFL.java:797)
+	at com.objectdb.o.DFL.<init>(DFL.java:241)
+	at com.objectdb.o.DMG.<init>(DMG.java:27)
+	at com.objectdb.o.MST.<init>(MST.java:127)
+	at com.objectdb.o.MST.ap(MST.java:109)
+	at com.objectdb.o.MSF.Zv(MSF.java:190)
+	at com.objectdb.o.OMF.s(OMF.java:804)
+	at com.objectdb.jpa.EMF.s(EMF.java:130)
+	at com.objectdb.o.OMF.x(OMF.java:715)
+	at com.objectdb.jpa.EMF.createEntityManager(EMF.java:149)
+	... 17 more
+
+[2020-12-18 14:25:19 #3 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2º\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' is closed by 11104@DESKTOP-C865LHP
+
+[2020-12-18 14:25:19 #4 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2�\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' has been recovered (tr. 6-6)
+
+[2020-12-18 14:25:19 #5 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2�\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' is opened by 11104@DESKTOP-C865LHP
+
+[2020-12-18 14:25:19 #6 store] 
+Configuration path: C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2�\Datos A acceso\JoseRamon\AAA_Contenido\Examen\objectdb-2.8.3\objectdb-2.8.3\objectdb.conf
+
+[2020-12-18 14:27:06 #7 store] 
+Database 'C:\Users\polix\OneDrive\Documents\AAInformatica\Dam\2�\Datos A acceso\JoseRamon\AAA_Contenido\Examen\PreparacionObjectDb\empleados.odb' is closed by 11104@DESKTOP-C865LHP
+

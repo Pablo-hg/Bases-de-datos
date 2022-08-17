@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 14-feb-2021 11:56:58 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Modelo.Perifericos" table="perifericos" catalog="hibernate" optimistic-lock="version">
+        <id name="sitio" type="int">
+            <column name="Sitio" />
+            <generator class="assigned" />
+        </id>
+        <property name="monitor1" type="string">
+            <column name="Monitor1" length="120" />
+        </property>
+        <property name="monitor2" type="string">
+            <column name="Monitor2" length="120" />
+        </property>
+        <property name="raton" type="string">
+            <column name="Raton" length="100" />
+        </property>
+        <property name="teclado" type="string">
+            <column name="Teclado" length="120" />
+        </property>
+        <property name="discoPortatil" type="string">
+            <column name="Disco_portatil" length="120" />
+        </property>
+    </class>
+</hibernate-mapping>
